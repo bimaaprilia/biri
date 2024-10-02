@@ -1,37 +1,5 @@
 'use client';
 
-import { useCallback, useEffect, useState } from 'react';
-import Image from 'next/image';
-import Autoplay from 'embla-carousel-autoplay';
-import useEmblaCarousel from 'embla-carousel-react';
-import Partnership1 from 'public/contact-us/partnership-1.jpg';
-import Partnership2 from 'public/contact-us/partnership-2.png';
-import Partnership3 from 'public/contact-us/partnership-3.png';
-import { VscChevronLeft } from 'react-icons/vsc';
-
-import { cn } from '@/lib/utils';
-
-const events = [
-  {
-    imgSrc: Partnership1,
-  },
-  {
-    imgSrc: Partnership2,
-  },
-  {
-    imgSrc: Partnership3,
-  },
-  {
-    imgSrc: Partnership1,
-  },
-  {
-    imgSrc: Partnership2,
-  },
-  {
-    imgSrc: Partnership3,
-  },
-] as const;
-
 export function PublicDocument() {
   
   
